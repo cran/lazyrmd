@@ -1,6 +1,6 @@
 Package: lazyrmd
 Title: Render R Markdown Outputs Lazily
-Version: 0.2.0
+Version: 0.2.0.1
 Authors@R: c(
     person("Ryan", "Hafen", email = "rhafen@gmail.com", role = c("aut", "cre")),
     person("Barret", "Schloerke", email = "schloerke@gmail.com", role = c("aut")),
@@ -15,16 +15,18 @@ License: MIT + file LICENSE
 URL: http://github.com/hafen/lazyrmd
 BugReports: https://github.com/hafen/lazyrmd/issues
 Imports: knitr, rmarkdown, htmlwidgets, digest, htmltools
-Suggests: testthat, networkD3
+Suggests: testthat, networkD3, lintr
 LazyData: true
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2016-10-07 17:23:45 UTC; barret
+Packaged: 2018-08-19 08:39:12 UTC; hornik
 Author: Ryan Hafen [aut, cre],
   Barret Schloerke [aut],
   jQuery Foundation [cph] (jQuery.js library),
   Sourcey [cph] (recliner.js library)
-Maintainer: Ryan Hafen <rhafen@gmail.com>
+Maintainer: ORPHANED
 Repository: CRAN
-Date/Publication: 2016-10-08 00:35:36
+Date/Publication: 2018-08-19 08:51:35 UTC
+X-CRAN-Original-Maintainer: Ryan Hafen <rhafen@gmail.com>
+X-CRAN-Comment: Archived on 2020-01-02.
